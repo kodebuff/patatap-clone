@@ -5,7 +5,8 @@
   <title>Patatap Clone</title>
 
   <script type="text/javascript" src="paper-full.js"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.0.5/howler.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.0.5/howler.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="patatap-clone.css">
   
   <script type="text/paperscript" canvas="myCanvas">
@@ -183,13 +184,6 @@
       }      
     }
 
-//    function onFrame(event) {
-//      for(var i = 0; i < circles.length; i++) {
-//        circles[i].fillColor.hue += 1;
-//        circles[i].scale(.9);
-//      }      
-//    }
-
     function onFrame(event){
       for(var i = 0; i < circles.length; i++){
         circles[i].scale(0.9);
@@ -208,7 +202,10 @@
 </head>
 
 <body>
-  <canvas id="myCanvas" resize></canvas>
+	<h1>PATATAP CLONE PROJECT</h1>
+	<h2>press any key from a - z</h2>
+	<canvas id="myCanvas" resize></canvas>
+	<footer>(From Web Dev Bootcamp originally created by Colt Steele)</footer>
 </body>
 
 </html>

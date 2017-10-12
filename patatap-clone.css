@@ -1,9 +1,17 @@
 html, body {
+  font-family: Roboto;
   height: 100%;
   margin: 0;
+  background: black;
 }
 
 canvas {
   width: 100%;
   background: black;
+}
+
+h1, h2, h3, footer {
+  text-align: center;
+  background: black;
+  color: white;
 }
